@@ -1,5 +1,23 @@
-@import "bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-color: #68f0e9;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
 
-body{
-    background: white;
+.container {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(134, 146, 218, 0.301);
+  text-align: center;
+}
+
+#excuse {
+  font-size: 1.5rem;
+  margin-top: 1em;
+  color: #2b3030;
 }
